@@ -17,12 +17,7 @@ const linking: LinkingOptions<RootStackParamList> = {
         screens: {
           News: {
             screens: {
-              NewsScreen: 'one',
-            },
-          },
-          Circle: {
-            screens: {
-              CircleScreen: 'two',
+              NewsScreen: 'news',
             },
           },
           User: {
@@ -32,7 +27,7 @@ const linking: LinkingOptions<RootStackParamList> = {
           },
         },
       },
-      Modal: 'modal',
+      NewsContentModal: 'modal',
       NotFound: '*',
     },
   },
